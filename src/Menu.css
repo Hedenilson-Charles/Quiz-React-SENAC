@@ -1,0 +1,5 @@
+.Menu {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(163, 163, 163);
+}
