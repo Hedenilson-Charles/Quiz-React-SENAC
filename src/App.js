@@ -20,7 +20,10 @@ const App = () => {
 
         <div> 
             <Menu/>
+<<<<<<< Updated upstream
             
+=======
+>>>>>>> Stashed changes
 
             { tela }
 

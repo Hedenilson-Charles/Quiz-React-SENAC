@@ -6,7 +6,11 @@ const Final = ( props) => {
     const pontos = props.pontos;
 
     require('./Final.css');
+<<<<<<< Updated upstream
 
+=======
+    
+>>>>>>> Stashed changes
     return ( 
         <div className="Final">
             <h1>Parabens!</h1>
