@@ -73,78 +73,22 @@ const Quiz = (props) => {
         },
         {
             imagem:"https://tribunapr.uol.com.br/wp-content/uploads/2020/03/03105249/nazare-confusa-970x550.jpg",
-            texto: "",
-            alternativas: "",
+            texto: "6 - Em que parte do corpo se encontra a epiglote?",
+            alternativas: ["Estômago","Cabeça","Mãos","Boca"],
             correta:0,
 
         },
         {
-            imagem:"",
-            texto: "",
-            alternativas: "",
+            imagem:"https://i.pinimg.com/236x/fa/53/4e/fa534eb8c3e0cec185c37d1bd4d6ebd8.jpg",
+            texto: "7 - A quantos graus Celsius a água precisa estar para começar a ferver?",
+            alternativas: ["0°","100°","30°","11°"],
             correta:0,
 
         },
-        {
-            imagem:"",
-            texto: "",
-            alternativas: "",
-            correta:0,
 
-        },
-        {
-            imagem:"",
-            texto: "",
-            alternativas: "",
-            correta:0,
-
-        },
-        {
-            imagem:"",
-            texto: "",
-            alternativas: "",
-            correta:0,
-
-        },
-        {
-            imagem:"",
-            texto: "",
-            alternativas: "",
-            correta:0,
-
-        },
-        {
-            imagem:"",
-            texto: "",
-            alternativas: "",
-            correta:0,
-
-        },
-        {
-            imagem:"",
-            texto: "",
-            alternativas: "",
-            correta:0,
-
-        },
-        {
-            imagem:"",
-            texto: "",
-            alternativas: "",
-            correta:0,
-
-        },
-        {
-            imagem:"",
-            texto: "",
-            alternativas: "",
-            correta:0,
-
-        },
 
     ];
 
-    console.log(pontos);
 
     
     return  (
