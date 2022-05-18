@@ -107,7 +107,7 @@ const Quiz = (props) => {
 
         },
         {
-            imagem:"https://statig0.akamaized.net/bancodeimagens/cu/fz/2f/cufz2f859fwnmu3m28e09xouc.jpg",
+            imagem:"https://www.sc.gov.br/images/joomgallery/details/setoriais_6457/vacina_covid-19_20210126_1398272169.jpg",
             texto: "11 - Qual das alternativas contém apenas vacinas contra a covid-19 ?",
             alternativas: ["x"],
             correta:0,
