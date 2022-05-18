@@ -4,8 +4,21 @@
     color:  rgb(6, 4, 31);
 }
 
-.Apresentacao button{
+.Button{
+
     font-size: 29px;
+    font-family: Bold;
     border-radius: 2px;
-    border: ;
+    border: 2px;
+    transition: 1s;
+    transform: scale(1.99);
+    color: darkcyan;
+}
+
+.Button :hover {
+    transform: scale(1.13);
+    cursor: pointer;
+    background-color: #dfe5ec ;
+    color: rgb(5, 3, 87);
+    border: 1px solid  ;
 }
