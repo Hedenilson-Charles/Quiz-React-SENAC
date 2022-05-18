@@ -121,21 +121,21 @@ const Quiz = (props) => {
 
         },
         {
-            imagem:"",
-            texto: "13 - Qual das alternativas contém apenas invenções criadas",
+            imagem: "https://i.pinimg.com/236x/0c/7f/90/0c7f90b3466785f3618ca3c7a4b6af23.jpg",
+            texto: "13 - Qual das alternativas contém apenas invenções criadas no Brasil",
             alternativas: ["x"],
             correta:0,
 
         },
         {
-            imagem:"",
+            imagem: "https://www.vazamentos.info/wp-content/uploads/2019/06/Como-acabar-com-a-condensacao.jpg",
             texto: "14 - A condensação é a transição entre quais estados da materia?",
             alternativas: ["x"],
             correta:0,
 
         },
         {
-            imagem:"",
+            imagem: "https://www.defensoria.rs.def.br/upload/recortes/202003/05101833_66361_GD.png",
             texto: "15 - O Dia Internacional das Mulheres é comemorado em qual mês?",
             alternativas: ["x"],
             correta:0,
