@@ -85,62 +85,7 @@ const Quiz = (props) => {
             correta:0,
 
         },
-        {
-            imagem:"https://thumbs.gfycat.com/PhonyRichHorsefly-mobile.jpg",
-            texto: "8 - Quantos noves tem de 0 a 100?",
-            alternativas: "",
-            correta:0,
 
-        },
-        {
-            imagem:"https://s1.static.brasilescola.uol.com.br/img/2018/03/catedral-de-sao-basilio.jpg",
-            texto: "9 - Qual é a capital da Rússia?",
-            alternativas: "",
-            correta:0,
-
-        },
-        {
-            imagem:"https://imageproxy.ifunny.co/crop:x-20,resize:640x,quality:90x75/images/0bdc40f8a0c0c002f0d5309737803ed26d5e451cca52171843c7d81872a4c3bf_1.jpg",
-            texto: "10 - Em que estado brasileiro aconteceu a guerra de canudos?",
-            alternativas: "",
-            correta:0,
-
-        },
-        {
-            imagem:"https://statig0.akamaized.net/bancodeimagens/cu/fz/2f/cufz2f859fwnmu3m28e09xouc.jpg",
-            texto: "11 - Qual das alternativas contém apenas vacinas contra a covid-19 ?",
-            alternativas: "",
-            correta:0,
-
-        },
-        {
-            imagem: "https://aws1.discourse-cdn.com/nubank/original/3X/4/7/47919cb5977ce20f31e5640ffafb7754583cdb42.jpeg",
-            texto: "12 - O que é Pix?",
-            alternativas: "",
-            correta:0,
-
-        },
-        {
-            imagem:"",
-            texto: "13 - Qual das alternativas contém apenas invenções criadas",
-            alternativas: "",
-            correta:0,
-
-        },
-        {
-            imagem:"",
-            texto: "14 - A condensação é a transição entre quais estados da materia?",
-            alternativas: "",
-            correta:0,
-
-        },
-        {
-            imagem:"",
-            texto: "15 - O Dia Internacional das Mulheres é comemorado em qual mês?",
-            alternativas: "",
-            correta:0,
-
-        },
 
     ];
 
