@@ -131,7 +131,7 @@ const Quiz = (props) => {
         {
             imagem: "https://www.vazamentos.info/wp-content/uploads/2019/06/Como-acabar-com-a-condensacao.jpg",
             texto: "14 - A condensação é a transição entre quais estados da materia?",
-            alternativas: ["x"],
+            alternativas: ["Sólido para líquido","Gasoso para líquido","Líquido para sólido","Líquido para gás"],
             correta:0,
 
         },
