@@ -88,56 +88,57 @@ const Quiz = (props) => {
         {
             imagem:"https://thumbs.gfycat.com/PhonyRichHorsefly-mobile.jpg",
             texto: "8 - Quantos noves tem de 0 a 100?",
-            alternativas: ["x"],
+            alternativas: ["10","11","20","21"],
             correta:0,
 
         },
         {
             imagem:"https://s1.static.brasilescola.uol.com.br/img/2018/03/catedral-de-sao-basilio.jpg",
             texto: "9 - Qual é a capital da Rússia?",
-            alternativas: ["x"],
+            alternativas: ["São Petersburgo","Sóchi","Moscou","Cazã"],
             correta:0,
 
         },
         {
             imagem:"https://imageproxy.ifunny.co/crop:x-20,resize:640x,quality:90x75/images/0bdc40f8a0c0c002f0d5309737803ed26d5e451cca52171843c7d81872a4c3bf_1.jpg",
             texto: "10 - Em que estado brasileiro aconteceu a guerra de canudos?",
-            alternativas: ["x"],
+            alternativas: ["Sergipe","Minas Gerais","Bahia","São Paulo"],
             correta:0,
 
         },
         {
             imagem:"https://www.sc.gov.br/images/joomgallery/details/setoriais_6457/vacina_covid-19_20210126_1398272169.jpg",
             texto: "11 - Qual das alternativas contém apenas vacinas contra a covid-19 ?",
-            alternativas: ["x"],
+            alternativas: ["VIP/VOP e AstraZeneca","CoronacVac e AstraZenece","Rotavírus e CoronaVac","Pentavalente(DTPa) e Sputnik V"],
             correta:0,
 
         },
         {
             imagem: "https://aws1.discourse-cdn.com/nubank/original/3X/4/7/47919cb5977ce20f31e5640ffafb7754583cdb42.jpeg",
             texto: "12 - O que é Pix?",
-            alternativas: ["x"],
+            alternativaB:"Plano de investimento de baixo risco do Banco do Brasil",
+            alternativas: ["Meio de pagamento instantâneo criado pelo Banco Central do Brasil","Plano de investimento de baixo risco do Banco do Brasil","Forma de pagamento online","Produtos de investimento financeiro criados pelo Banco Central"],
             correta:0,
 
         },
         {
-            imagem:"",
-            texto: "13 - Qual das alternativas contém apenas invenções criadas",
-            alternativas: ["x"],
+            imagem: "https://i.pinimg.com/236x/0c/7f/90/0c7f90b3466785f3618ca3c7a4b6af23.jpg",
+            texto: "13 - Qual das alternativas contém apenas invenções criadas no Brasil",
+            alternativas: ["Urna eletrônica, soro antiofídico e chuveiro elétrico","lâmpada elétrica, chuveiro elétrico e internet-telefone e urna eletrónica","Facebook, automóvel e paraquedas","Urna eletrónica, soro antiofídico e paraquedas"],
             correta:0,
 
         },
         {
-            imagem:"",
+            imagem: "https://www.vazamentos.info/wp-content/uploads/2019/06/Como-acabar-com-a-condensacao.jpg",
             texto: "14 - A condensação é a transição entre quais estados da materia?",
-            alternativas: ["x"],
+            alternativas: ["Sólido para líquido","Gasoso para líquido","Líquido para sólido","Líquido para gás"],
             correta:0,
 
         },
         {
-            imagem:"",
+            imagem: "https://www.defensoria.rs.def.br/upload/recortes/202003/05101833_66361_GD.png",
             texto: "15 - O Dia Internacional das Mulheres é comemorado em qual mês?",
-            alternativas: ["x"],
+            alternativas: ["Março","Abril","Outubro","Maio"],
             correta:0,
 
         },
