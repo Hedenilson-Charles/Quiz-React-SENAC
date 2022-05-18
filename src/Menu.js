@@ -9,8 +9,7 @@ const Menu = ( props ) =>{
     return(
 
         <div className="Menu"> 
-        <p>logo</p>
-        <p>Pontos : {pontos}</p>
+        <img src='https://i.imgur.com/RTVb6EB.png'/>
         </div>
 
     );

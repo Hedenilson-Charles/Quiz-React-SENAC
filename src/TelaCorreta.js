@@ -1,10 +1,10 @@
 import React from "react";
-
 import Quiz from "./Quiz";
 
 const TelaCorreta = ( props ) => {
 
     const etapa = props.etapa;
+    const alteraTela = props.alteraTela;
 
 
     console.log(etapa);
@@ -15,7 +15,8 @@ const TelaCorreta = ( props ) => {
     <div>
 
         <h1> Este é um teste</h1>
-        <button onClick={<Quiz etapa = {etapa}/>} >Voltar pra la</button>
+        <h1>{ localStorage.getItem("etapa") }</h1>
+        <button onClick={()=> alteraTela(<Quiz alteraTela={alteraTela}/>)}>Voltar pra la</button>
 
 
     </div>

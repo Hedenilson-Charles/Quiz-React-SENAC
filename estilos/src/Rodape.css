@@ -11,9 +11,6 @@
         position: fixed;
         bottom:0px;
         left:0px;
-}
-
-.Rodape li {
-        list-style-type: none;
+        margin: 10px;
 }
 

@@ -7,10 +7,10 @@ const Rodape = () => {
     return(
         <footer className="Rodape">
             <ul>
-                <li>Aluno 1</li>
-                <li>Aluno 2</li>
-                <li>Aluno 3</li>
-                <li>Aluno 4</li>
+                <li>Hedenilson Charles</li>
+                <li>Dhandara Rafaela</li>
+                <li>Yasmin Hermano</li>
+                <li>Vinícius Gabriel</li>
             </ul>
         </footer>
     );
