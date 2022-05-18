@@ -5,8 +5,10 @@ const Final = ( props) => {
     const alteraTela = props.alteraTela;
     const pontos = props.pontos;
 
+    require('./Final.css');
+
     return ( 
-        <div>
+        <div className="Final">
             <h1>Parabens!</h1>
             <p>Você terminou o Quiz</p>
             <p>Você marcou {pontos} pontos!</p>
