@@ -9,10 +9,10 @@ const Apresentacao = ( props ) => {
     const [pontosIniciais, resetaPontos] = useState(0);
 
 
-
+    require('./Apresentacao.css');
 
     return ( 
-    <div>
+    <div className="Apresentacao">
 
         <h1>Bem-vindo ao quiz</h1>
         <p>Começar?</p>
