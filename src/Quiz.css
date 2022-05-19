@@ -1,15 +1,12 @@
 .ContainerPerguntas {
     display: flex;
     justify-content: center;
-    background: rgb(255, 255, 255);
 }
 
 .BlocoImagemTexto {
-    background: null;
-    color: rgb(6, 4, 31);
+    color: rgb(0, 0, 0);
     font-size: 29px;
     font-weight: bold;
-    margin: 40px;
     text-align:center;
     border-radius: 30px;
     width: 700px;
@@ -20,7 +17,7 @@
 
 .BlocoRespostasBotoes {
     background: none ;
-    color:rgb(0, 0, 0);
+    color:rgb(2, 3, 32);
     align-self: center;
     font-family: arial;
     font-weight: bold;

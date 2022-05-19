@@ -6,17 +6,18 @@ const Final = ( props) => {
     const pontos = props.pontos;
 
     require('./Final.css');
-<<<<<<< Updated upstream
 
-=======
     
->>>>>>> Stashed changes
     return ( 
         <div className="Final">
-            <h1>Parabens!</h1>
+            <h1>Parabéns!</h1>
             <p>Você terminou o Quiz</p>
             <p>Você marcou {pontos} pontos!</p>
-            <button onClick={()=> alteraTela(<Apresentacao alteraTela={alteraTela}/>)}>Recomeçar</button>
+
+            <div className="button">
+                <button onClick={()=> alteraTela(<Apresentacao alteraTela={alteraTela}/>)}>Recomeçar</button>
+            </div>
+
         </div>
      );
 }

@@ -1,11 +1,26 @@
 .Final{
-<<<<<<< Updated upstream
-    font-weight: bold;
+    font-weight: times;
     font-size: 29px;
     color: rgb(6, 4, 31);
     background: null;
     text-align:center;
-=======
     
->>>>>>> Stashed changes
+}
+
+.button{
+    font-size: 15px;
+    font-family: Bold;
+    border-radius: 2px;
+    border: 2px;
+    transition: 1s;
+    transform: scale(1.99);
+    color: rgb(49, 216, 202);
+}
+
+.button :hover {
+    transform: scale(1.13);
+    cursor: pointer;
+    background-color: #dfe5ec ;
+    color: rgb(5, 3, 87);
+    border: 1px solid  ;
 }
