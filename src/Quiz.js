@@ -18,9 +18,9 @@ const Quiz = (props) => {
     // Funçao abaixo corre pelas perguntas
     const verificaResposta = ( i ) => {
 
-        console.log(i);
 
         const respostaCorreta = perguntas[etapa].correta;
+        const ultima = (respostaCorreta == i);
         if (respostaCorreta == i ) {
             alteraPontos(pontos + 1);    
         }
@@ -31,7 +31,7 @@ const Quiz = (props) => {
         if ( etapa + 1 < perguntas.length ) {
             alteraEtapa( etapa + 1);
         } else {
-            alteraTela(<Final alteraTela={alteraTela} pontos = {pontos}/>);
+            alteraTela(<Final alteraTela={alteraTela} ultima={ultima} pontos = {pontos}/>);
         }
 
     }
@@ -144,6 +144,8 @@ const Quiz = (props) => {
         },
 
     ];
+
+    console.log(pontos);
 
 
     

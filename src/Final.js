@@ -3,7 +3,8 @@ import Apresentacao from "./Apresentacao";
 const Final = ( props) => {
 
     const alteraTela = props.alteraTela;
-    const pontos = props.pontos;
+    const ultima = props.ultima;
+    const pontos = props.pontos + (ultima? 1:0);
 
     require('./Final.css');
 
