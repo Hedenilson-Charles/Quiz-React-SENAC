@@ -109,7 +109,7 @@ const Quiz = (props) => {
         {
             imagem:"https://www.sc.gov.br/images/joomgallery/details/setoriais_6457/vacina_covid-19_20210126_1398272169.jpg",
             texto: "11 - Qual das alternativas contém apenas vacinas contra a covid-19 ?",
-            alternativas: ["VIP/VOP e AstraZeneca","CoronacVac e AstraZenece","Rotavírus e CoronaVac","Pentavalente(DTPa) e Sputnik V"],
+            alternativas: ["VIP/VOP e AstraZeneca","CoronaVac e AstraZeneca","Rotavírus e CoronaVac","Pentavalente(DTPa) e Sputnik V"],
             correta:1,
 
         },
@@ -124,7 +124,7 @@ const Quiz = (props) => {
         {
             imagem: "https://i.pinimg.com/236x/0c/7f/90/0c7f90b3466785f3618ca3c7a4b6af23.jpg",
             texto: "13 - Qual das alternativas contém apenas invenções criadas no Brasil",
-            alternativas: ["Urna eletrônica, soro antiofídico e chuveiro elétrico","lâmpada elétrica, chuveiro elétrico e internet-telefone e urna eletrónica","Facebook, automóvel e paraquedas","Urna eletrónica, soro antiofídico e paraquedas"],
+            alternativas: ["Urna eletrônica, soro antiofídico e chuveiro elétrico","Lâmpada elétrica, chuveiro elétrico e internet-telefone e urna eletrónica","Facebook, automóvel e paraquedas","Urna eletrónica, soro antiofídico e paraquedas"],
             correta:0,
 
         },
