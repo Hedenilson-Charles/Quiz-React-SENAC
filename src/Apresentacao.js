@@ -17,7 +17,12 @@ const Apresentacao = ( props ) => {
         <h1> Bem-vindo ao  Const Quiz ✍🏽 </h1>
         <p>Aqui você colocará á prova seus conhecimentos gerais</p>
         <div className="Button">
-             <button onClick={ ()=> alteraTela( <Quiz alteraTela={alteraTela}/>)<resetaPontos(pontosIniciais = 0)}>Começar</button>
+             <button onClick={
+                  ()=> {
+                alteraTela( <Quiz alteraTela={alteraTela}/>);
+                resetaPontos(0)
+             }
+            }>Começar</button>
         </div>
 
     </div> 

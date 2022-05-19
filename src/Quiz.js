@@ -24,7 +24,6 @@ const Quiz = (props) => {
         if (respostaCorreta == i ) {
             alteraPontos(pontos + 1);    
         }
-        console.log(pontos);
 
 
 
@@ -145,7 +144,6 @@ const Quiz = (props) => {
 
     ];
 
-    console.log(pontos);
 
 
     
@@ -163,7 +161,7 @@ const Quiz = (props) => {
                 <ul>
                     {
                         perguntas[etapa].alternativas.map((a , i)=> {
-                            return <li onClick={()=> verificaResposta(i) }>{a}</li>
+                            return <li key={i} onClick={()=> verificaResposta(i) }>{a}</li>
                         })
                     }
                 </ul>
