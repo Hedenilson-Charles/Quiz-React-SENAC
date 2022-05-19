@@ -12,7 +12,7 @@ const Final = ( props) => {
         <div className="Final">
             <h1>Parabéns!</h1>
             <p>Você terminou o Quiz</p>
-            <p>Você marcou {pontos} pontos!</p>
+            <p>Você acertou {pontos}/15 perguntas!</p>
 
             <div className="button">
                 <button onClick={()=> alteraTela(<Apresentacao alteraTela={alteraTela}/>)}>Recomeçar</button>
